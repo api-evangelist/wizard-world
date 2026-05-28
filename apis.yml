@@ -1,0 +1,32 @@
+aid: wizard-world
+name: Wizard World
+description: "Get information from the Harry Potter universe"
+url: https://wizard-world-api.herokuapp.com/swagger/index.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Books"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Books
+  - Public APIs
+apis:
+  - name: Wizard World
+    description: "Get information from the Harry Potter universe"
+    humanURL: https://wizard-world-api.herokuapp.com/swagger/index.html
+    baseURL: https://wizard-world-api.herokuapp.com/swagger/index.html
+    tags:
+      - Books
+    properties:
+      - type: Documentation
+        url: https://wizard-world-api.herokuapp.com/swagger/index.html
+common:
+  - type: Website
+    url: https://wizard-world-api.herokuapp.com/swagger/index.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
